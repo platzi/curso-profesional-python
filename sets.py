@@ -5,6 +5,8 @@ def remove_duplicates(some_list):
             without_duplicates.append(element)
     return without_duplicates
 
+def remove_duplicates_with_sets(some_list):
+    return list(set(some_list))
 
 def run():
     random_list = [1, 2, 2, 2, 3, "Platzi", "Platzi", True, 4.6, False]
